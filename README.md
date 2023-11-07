@@ -13,6 +13,10 @@ To perform this analysis we used Numpy, Scipy, Matplotlib, and Pandas with pytho
 ## Conclusions and Limitations
 Through this analysis, we concluded that indeed the region of the United States that a patient lives in does indeed impact their likelihood of suffering from a heart attack or a stroke. This initial analysis shows that gender, general health, and smoking have a higher impact on having a heart attack or stroke in the south but less so in the west. 
 
+![history of heart attack_gender](https://github.com/anelaherandez/Project_1_Team7/assets/144189200/de1a6255-b7e2-40ec-b9ac-cb55c662cecf)
+
+
+
 The dataset did not include economic or dietary data, which certainly impact one's health and could provide more insight into why the southern states suffered from poorer health outcomes and higher rates of heart attacks and strokes. 
 
 
