@@ -5,7 +5,7 @@ Our main question in this EDA project is: Does the region of the United States i
 
 To explore this question, we broke down the dataset into the 4 US census regions: South, West, Midwest, Northeast. For each region we explored what correlations gender, general health, smoking status, alcohol use, and teeth removal impact the likelihood of suffering from a heart attack and/or a stroke, in hopes of understanding which factors are likely more significant with respect to heart attacks and strokes. 
 
-![Alt text](/South Analysis/path/picture1.png)
+![Alt text](/Project_1_Team7/South Analysis/path/picture1.png)
 
 To perform this analysis we used Numpy, Scipy, Matplotlib, and Pandas with python coding in Jupyter Notebook. This dataset is very large and has a plethora of categorical and numerical data that are primarily studied as indicators of Heart Disease around the globe. As an EDA project, we limited our scope to just analyzing the heart attack and stroke columns and their accompanying data. Additionally, we split the original dataset into smaller, more manageable csv files by the US census designated regions of the United States. Each member of the group took a region and created a jupyter notebook to perform analysis. Daniela took the Northeast and Midwest, Andrea took the South, and Ryan took the West. The first step in all of our python data cleaning was to transform the categorical data into integer data for ease of analysis. Then we focused on each of the factors of interest to see the significance each played in a patient suffering from a heart attack or stroke. 
 
