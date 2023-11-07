@@ -17,7 +17,7 @@ Through this analysis, we concluded that indeed the region of the United States 
 
 
 
-
+![factors](https://github.com/anelaherandez/Project_1_Team7/assets/144189200/c41fa076-457a-4a0e-a146-672fc05d0e99)
 
 The dataset did not include economic or dietary data, which certainly impact one's health and could provide more insight into why the southern states suffered from poorer health outcomes and higher rates of heart attacks and strokes. 
 
