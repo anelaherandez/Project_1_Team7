@@ -7,11 +7,14 @@ To explore this question, we broke down the dataset into the 4 US census regions
 
 ![Picture1](https://github.com/anelaherandez/Project_1_Team7/assets/144189200/33ead3df-f030-4750-928f-83eeef4df297)
 
-To perform this analysis we used Numpy, Scipy, Matplotlib, and Pandas with python coding in Jupyter Notebook. This dataset is very large and has a plethora of categorical and numerical data that are primarily studied as indicators of Heart Disease around the globe. As an EDA project, we limited our scope to just analyzing the heart attack and stroke columns and their accompanying data. Additionally, we split the original dataset into smaller, more manageable csv files by the US census designated regions of the United States. Each member of the group took a region and created a jupyter notebook to perform analysis. Daniela took the Northeast and Midwest, Andrea took the South, and Ryan took the West. The first step in all of our python data cleaning was to transform the categorical data into integer data for ease of analysis. Then we focused on each of the factors of interest to see the significance each played in a patient suffering from a heart attack or stroke. 
+## Data Cleaning and Exploration
+To perform this analysis we used Numpy, Scipy, Matplotlib, and Pandas with python coding in Jupyter Notebook. This dataset is very large and has a plethora of categorical and numerical data that are primarily studied as indicators of Heart Disease around the globe. As an EDA project, we limited our scope to just analyzing the heart attack and stroke columns and their accompanying data. Additionally, we split the original dataset into smaller, more manageable csv files by the US census designated regions of the United States. Each member of the group took a region and created a jupyter notebook to perform analysis. Daniela took the Northeast and Midwest, Andrea took the South, and Ryan took the West. The first step in all of our python data cleaning was to transform the categorical data into integer data for ease of analysis. Then we focused on each of the factors of interest to see the significance each played in a patient suffering from a heart attack or stroke. As stated, the dataset has a fair amount of categorical data, so we limited our scope of interest to only gender, cigarette smoking status, general health, teeth removal, and a brief look at BMI. We primarily used charts to understand the relationships between these aformentioned factors and instances of heart attack/or stroke, but we did perform a t-test on gender differences in heart attack and stroke patients in both the west and the south. 
 
 
 ## Conclusions and Limitations
-Through this analysis, we concluded that indeed the region of the United States that a patient lives in does indeed impact their likelihood of suffering from a heart attack or a stroke. This initial analysis shows that gender, general health, and smoking have a higher impact on having a heart attack or stroke in the south but less so in the west. 
+Through this analysis, we concluded that indeed the region of the United States that a patient lives in does impact their likelihood of suffering from a heart attack or a stroke. This initial analysis shows that gender, general health, and smoking have a higher impact on having a heart attack in the south but less so in the west. These factors, however, do not seem to impact the likelihood of a stroke as significantly as they do for heart attacks. Further analysis on other factors provided in the dataset could provide more insight into what attributes can predict strokes in patients. 
+
+The dataset did not include economic or dietary data, which certainly impact one's health and could provide more insight into why the southern states suffered from poorer health outcomes and higher rates of heart attacks and strokes. 
 
 ![history of heart attack_gender](https://github.com/anelaherandez/Project_1_Team7/assets/144189200/de1a6255-b7e2-40ec-b9ac-cb55c662cecf)
 
@@ -19,7 +22,6 @@ Through this analysis, we concluded that indeed the region of the United States 
 
 ![factors](https://github.com/anelaherandez/Project_1_Team7/assets/144189200/c41fa076-457a-4a0e-a146-672fc05d0e99)
 
-The dataset did not include economic or dietary data, which certainly impact one's health and could provide more insight into why the southern states suffered from poorer health outcomes and higher rates of heart attacks and strokes. 
 
 
 
